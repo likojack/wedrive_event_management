@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AE2D9971B65A3EC005C4C52 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2D9961B65A3EC005C4C52 /* ContactListViewController.swift */; };
+		0AE2D99B1B67A89E005C4C52 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2D99A1B67A89E005C4C52 /* Event.swift */; };
+		699271391B5E603000660E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271381B5E603000660E95 /* AppDelegate.swift */; };
+		6992713C1B5E603000660E95 /* weDrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6992713A1B5E603000660E95 /* weDrive.xcdatamodeld */; };
+		6992713E1B5E603000660E95 /* EventManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992713D1B5E603000660E95 /* EventManagementViewController.swift */; };
+		699271411B5E603000660E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6992713F1B5E603000660E95 /* Main.storyboard */; };
+		699271431B5E603000660E95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699271421B5E603000660E95 /* Images.xcassets */; };
+		699271461B5E603000660E95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699271441B5E603000660E95 /* LaunchScreen.xib */; };
+		699271521B5E603100660E95 /* weDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271511B5E603100660E95 /* weDriveTests.swift */; };
+		6992715E1B5E626600660E95 /* Tidbinbilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6992715D1B5E626600660E95 /* Tidbinbilla.jpg */; };
+		699271601B5E65A900660E95 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992715F1B5E65A900660E95 /* EventDetailViewController.swift */; };
+		699271621B5E7B6B00660E95 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271611B5E7B6B00660E95 /* CreateEventViewController.swift */; };
+		699271641B5E99B900660E95 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 699271631B5E99B900660E95 /* default.jpg */; };
+		699271661B5EA31500660E95 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271651B5EA31500660E95 /* ZoomViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6992714C1B5E603000660E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6992712B1B5E603000660E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699271321B5E603000660E95;
+			remoteInfo = weDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AE2D9961B65A3EC005C4C52 /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		0AE2D99A1B67A89E005C4C52 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		699271331B5E603000660E95 /* weDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		699271371B5E603000660E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699271381B5E603000660E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6992713B1B5E603000660E95 /* weDrive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weDrive.xcdatamodel; sourceTree = "<group>"; };
+		6992713D1B5E603000660E95 /* EventManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagementViewController.swift; sourceTree = "<group>"; };
+		699271401B5E603000660E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		699271421B5E603000660E95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		699271451B5E603000660E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6992714B1B5E603000660E95 /* weDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		699271501B5E603000660E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		699271511B5E603100660E95 /* weDriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weDriveTests.swift; sourceTree = "<group>"; };
+		6992715D1B5E626600660E95 /* Tidbinbilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tidbinbilla.jpg; sourceTree = SOURCE_ROOT; };
+		6992715F1B5E65A900660E95 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		699271611B5E7B6B00660E95 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		699271631B5E99B900660E95 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = SOURCE_ROOT; };
+		699271651B5EA31500660E95 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		699271301B5E603000660E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699271481B5E603000660E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6992712A1B5E603000660E95 = {
+			isa = PBXGroup;
+			children = (
+				699271351B5E603000660E95 /* weDrive */,
+				6992714E1B5E603000660E95 /* weDriveTests */,
+				699271341B5E603000660E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		699271341B5E603000660E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				699271331B5E603000660E95 /* weDrive.app */,
+				6992714B1B5E603000660E95 /* weDriveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		699271351B5E603000660E95 /* weDrive */ = {
+			isa = PBXGroup;
+			children = (
+				0AE2D99A1B67A89E005C4C52 /* Event.swift */,
+				699271631B5E99B900660E95 /* default.jpg */,
+				6992715D1B5E626600660E95 /* Tidbinbilla.jpg */,
+				699271381B5E603000660E95 /* AppDelegate.swift */,
+				0AE2D9961B65A3EC005C4C52 /* ContactListViewController.swift */,
+				699271651B5EA31500660E95 /* ZoomViewController.swift */,
+				699271611B5E7B6B00660E95 /* CreateEventViewController.swift */,
+				6992713D1B5E603000660E95 /* EventManagementViewController.swift */,
+				6992715F1B5E65A900660E95 /* EventDetailViewController.swift */,
+				6992713F1B5E603000660E95 /* Main.storyboard */,
+				699271421B5E603000660E95 /* Images.xcassets */,
+				699271441B5E603000660E95 /* LaunchScreen.xib */,
+				6992713A1B5E603000660E95 /* weDrive.xcdatamodeld */,
+				699271361B5E603000660E95 /* Supporting Files */,
+			);
+			path = weDrive;
+			sourceTree = "<group>";
+		};
+		699271361B5E603000660E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				699271371B5E603000660E95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6992714E1B5E603000660E95 /* weDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				699271511B5E603100660E95 /* weDriveTests.swift */,
+				6992714F1B5E603000660E95 /* Supporting Files */,
+			);
+			path = weDriveTests;
+			sourceTree = "<group>";
+		};
+		6992714F1B5E603000660E95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				699271501B5E603000660E95 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		699271321B5E603000660E95 /* weDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699271551B5E603100660E95 /* Build configuration list for PBXNativeTarget "weDrive" */;
+			buildPhases = (
+				6992712F1B5E603000660E95 /* Sources */,
+				699271301B5E603000660E95 /* Frameworks */,
+				699271311B5E603000660E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weDrive;
+			productName = weDrive;
+			productReference = 699271331B5E603000660E95 /* weDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6992714A1B5E603000660E95 /* weDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699271581B5E603100660E95 /* Build configuration list for PBXNativeTarget "weDriveTests" */;
+			buildPhases = (
+				699271471B5E603000660E95 /* Sources */,
+				699271481B5E603000660E95 /* Frameworks */,
+				699271491B5E603000660E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6992714D1B5E603000660E95 /* PBXTargetDependency */,
+			);
+			name = weDriveTests;
+			productName = weDriveTests;
+			productReference = 6992714B1B5E603000660E95 /* weDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6992712B1B5E603000660E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = michelle;
+				TargetAttributes = {
+					699271321B5E603000660E95 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					6992714A1B5E603000660E95 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 699271321B5E603000660E95;
+					};
+				};
+			};
+			buildConfigurationList = 6992712E1B5E603000660E95 /* Build configuration list for PBXProject "weDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6992712A1B5E603000660E95;
+			productRefGroup = 699271341B5E603000660E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				699271321B5E603000660E95 /* weDrive */,
+				6992714A1B5E603000660E95 /* weDriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		699271311B5E603000660E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6992715E1B5E626600660E95 /* Tidbinbilla.jpg in Resources */,
+				699271411B5E603000660E95 /* Main.storyboard in Resources */,
+				699271461B5E603000660E95 /* LaunchScreen.xib in Resources */,
+				699271431B5E603000660E95 /* Images.xcassets in Resources */,
+				699271641B5E99B900660E95 /* default.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699271491B5E603000660E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6992712F1B5E603000660E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE2D99B1B67A89E005C4C52 /* Event.swift in Sources */,
+				0AE2D9971B65A3EC005C4C52 /* ContactListViewController.swift in Sources */,
+				699271601B5E65A900660E95 /* EventDetailViewController.swift in Sources */,
+				699271661B5EA31500660E95 /* ZoomViewController.swift in Sources */,
+				6992713E1B5E603000660E95 /* EventManagementViewController.swift in Sources */,
+				6992713C1B5E603000660E95 /* weDrive.xcdatamodeld in Sources */,
+				699271391B5E603000660E95 /* AppDelegate.swift in Sources */,
+				699271621B5E7B6B00660E95 /* CreateEventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		699271471B5E603000660E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699271521B5E603100660E95 /* weDriveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6992714D1B5E603000660E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699271321B5E603000660E95 /* weDrive */;
+			targetProxy = 6992714C1B5E603000660E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6992713F1B5E603000660E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699271401B5E603000660E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		699271441B5E603000660E95 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				699271451B5E603000660E95 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		699271531B5E603100660E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		699271541B5E603100660E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		699271561B5E603100660E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		699271571B5E603100660E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = weDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		699271591B5E603100660E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = weDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weDrive.app/weDrive";
+			};
+			name = Debug;
+		};
+		6992715A1B5E603100660E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = weDriveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/weDrive.app/weDrive";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6992712E1B5E603000660E95 /* Build configuration list for PBXProject "weDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699271531B5E603100660E95 /* Debug */,
+				699271541B5E603100660E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699271551B5E603100660E95 /* Build configuration list for PBXNativeTarget "weDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699271561B5E603100660E95 /* Debug */,
+				699271571B5E603100660E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699271581B5E603100660E95 /* Build configuration list for PBXNativeTarget "weDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				699271591B5E603100660E95 /* Debug */,
+				6992715A1B5E603100660E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6992713A1B5E603000660E95 /* weDrive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6992713B1B5E603000660E95 /* weDrive.xcdatamodel */,
+			);
+			currentVersion = 6992713B1B5E603000660E95 /* weDrive.xcdatamodel */;
+			path = weDrive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6992712B1B5E603000660E95 /* Project object */;
+}
