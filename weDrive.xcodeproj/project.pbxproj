@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AE2D9971B65A3EC005C4C52 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2D9961B65A3EC005C4C52 /* ContactListViewController.swift */; };
+		0AE2D99B1B67A89E005C4C52 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE2D99A1B67A89E005C4C52 /* Event.swift */; };
 		699271391B5E603000660E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271381B5E603000660E95 /* AppDelegate.swift */; };
 		6992713C1B5E603000660E95 /* weDrive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6992713A1B5E603000660E95 /* weDrive.xcdatamodeld */; };
-		6992713E1B5E603000660E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992713D1B5E603000660E95 /* ViewController.swift */; };
-		699271411B5E603000660E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6992713F1B5E603000660E95 /* Main.storyboard */; };
+		6992713E1B5E603000660E95 /* EventManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992713D1B5E603000660E95 /* EventManagementViewController.swift */; };
 		699271431B5E603000660E95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 699271421B5E603000660E95 /* Images.xcassets */; };
 		699271461B5E603000660E95 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699271441B5E603000660E95 /* LaunchScreen.xib */; };
 		699271521B5E603100660E95 /* weDriveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271511B5E603100660E95 /* weDriveTests.swift */; };
+		6992715E1B5E626600660E95 /* Tidbinbilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6992715D1B5E626600660E95 /* Tidbinbilla.jpg */; };
+		699271601B5E65A900660E95 /* EventDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6992715F1B5E65A900660E95 /* EventDetailViewController.swift */; };
+		699271621B5E7B6B00660E95 /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271611B5E7B6B00660E95 /* CreateEventViewController.swift */; };
+		699271641B5E99B900660E95 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 699271631B5E99B900660E95 /* default.jpg */; };
+		699271661B5EA31500660E95 /* ZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699271651B5EA31500660E95 /* ZoomViewController.swift */; };
+		69F541231B70FD5C00FC111C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F541211B70FD5C00FC111C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AE2D9961B65A3EC005C4C52 /* ContactListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		0AE2D99A1B67A89E005C4C52 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		699271331B5E603000660E95 /* weDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		699271371B5E603000660E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699271381B5E603000660E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6992713B1B5E603000660E95 /* weDrive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = weDrive.xcdatamodel; sourceTree = "<group>"; };
-		6992713D1B5E603000660E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		699271401B5E603000660E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6992713D1B5E603000660E95 /* EventManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManagementViewController.swift; sourceTree = "<group>"; };
 		699271421B5E603000660E95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		699271451B5E603000660E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6992714B1B5E603000660E95 /* weDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		699271501B5E603000660E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699271511B5E603100660E95 /* weDriveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weDriveTests.swift; sourceTree = "<group>"; };
+		6992715D1B5E626600660E95 /* Tidbinbilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tidbinbilla.jpg; sourceTree = SOURCE_ROOT; };
+		6992715F1B5E65A900660E95 /* EventDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailViewController.swift; sourceTree = "<group>"; };
+		699271611B5E7B6B00660E95 /* CreateEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
+		699271631B5E99B900660E95 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = SOURCE_ROOT; };
+		699271651B5EA31500660E95 /* ZoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomViewController.swift; sourceTree = "<group>"; };
+		69F541221B70FD5C00FC111C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +93,17 @@
 		699271351B5E603000660E95 /* weDrive */ = {
 			isa = PBXGroup;
 			children = (
+				0AE2D99A1B67A89E005C4C52 /* Event.swift */,
+				699271631B5E99B900660E95 /* default.jpg */,
+				6992715D1B5E626600660E95 /* Tidbinbilla.jpg */,
 				699271381B5E603000660E95 /* AppDelegate.swift */,
-				6992713D1B5E603000660E95 /* ViewController.swift */,
-				6992713F1B5E603000660E95 /* Main.storyboard */,
+				0AE2D9961B65A3EC005C4C52 /* ContactListViewController.swift */,
+				699271651B5EA31500660E95 /* ZoomViewController.swift */,
+				699271611B5E7B6B00660E95 /* CreateEventViewController.swift */,
+				6992713D1B5E603000660E95 /* EventManagementViewController.swift */,
+				6992715F1B5E65A900660E95 /* EventDetailViewController.swift */,
 				699271421B5E603000660E95 /* Images.xcassets */,
+				69F541211B70FD5C00FC111C /* Main.storyboard */,
 				699271441B5E603000660E95 /* LaunchScreen.xib */,
 				6992713A1B5E603000660E95 /* weDrive.xcdatamodeld */,
 				699271361B5E603000660E95 /* Supporting Files */,
@@ -195,9 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699271411B5E603000660E95 /* Main.storyboard in Resources */,
+				6992715E1B5E626600660E95 /* Tidbinbilla.jpg in Resources */,
+				69F541231B70FD5C00FC111C /* Main.storyboard in Resources */,
 				699271461B5E603000660E95 /* LaunchScreen.xib in Resources */,
 				699271431B5E603000660E95 /* Images.xcassets in Resources */,
+				699271641B5E99B900660E95 /* default.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +238,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6992713E1B5E603000660E95 /* ViewController.swift in Sources */,
+				0AE2D99B1B67A89E005C4C52 /* Event.swift in Sources */,
+				0AE2D9971B65A3EC005C4C52 /* ContactListViewController.swift in Sources */,
+				699271601B5E65A900660E95 /* EventDetailViewController.swift in Sources */,
+				699271661B5EA31500660E95 /* ZoomViewController.swift in Sources */,
+				6992713E1B5E603000660E95 /* EventManagementViewController.swift in Sources */,
 				6992713C1B5E603000660E95 /* weDrive.xcdatamodeld in Sources */,
 				699271391B5E603000660E95 /* AppDelegate.swift in Sources */,
+				699271621B5E7B6B00660E95 /* CreateEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,20 +268,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6992713F1B5E603000660E95 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				699271401B5E603000660E95 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		699271441B5E603000660E95 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				699271451B5E603000660E95 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		69F541211B70FD5C00FC111C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F541221B70FD5C00FC111C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,6 +437,7 @@
 				699271571B5E603100660E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		699271581B5E603100660E95 /* Build configuration list for PBXNativeTarget "weDriveTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				6992715A1B5E603100660E95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
