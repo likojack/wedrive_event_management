@@ -12,6 +12,7 @@ import CoreData
 class EventManagementViewController: UIViewController, UITableViewDataSource, UITableViewDelegate   {
 
     @IBOutlet weak var eventListTableView: UITableView!
+    @IBOutlet weak var createButton: UIBarButtonItem!
     
     var eventlist : [Event] = []
     var selectedEvent : Event? = nil
@@ -25,14 +26,14 @@ class EventManagementViewController: UIViewController, UITableViewDataSource, UI
     }
     
     override func viewWillAppear(animated: Bool) {
-        var context = (UIApplication.sharedApplication().delegate as AppDelegate).managedObjectContext!
+        var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
         
         var request = NSFetchRequest(entityName: "Event")
         
         var results = context.executeFetchRequest(request, error: nil)
         
         if results != nil {
-            self.eventlist = results! as [Event]
+            self.eventlist = results! as! [Event]
         }
     }
     
@@ -65,11 +66,16 @@ class EventManagementViewController: UIViewController, UITableViewDataSource, UI
         self.selectedEvent = self.eventlist[indexPath.row]
         self.performSegueWithIdentifier("eventDetialSegue", sender: self)
     }
+    
+    
+    @IBAction func createTapped(sender: AnyObject) {
+        self.performSegueWithIdentifier("createSegue", sender: self)
+    }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if segue.identifier == "eventDetialSegue" {
-            var detailViewController = segue.destinationViewController as EventDetailViewController
+            var detailViewController = segue.destinationViewController as! EventDetailViewController
             detailViewController.event = self.selectedEvent
         } 
     }

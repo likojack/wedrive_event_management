@@ -52,10 +52,16 @@ class EventDetailViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var zoomViewController = segue.destinationViewController as ZoomViewController
-        zoomViewController.image = self.tappedImage!
+        
+        if segue.identifier == "zoomSegue" {
+            var zoomViewController = segue.destinationViewController as! ZoomViewController
+            zoomViewController.image = self.tappedImage!
+        }
     }
 
+    @IBAction func backTapped(sender: AnyObject) {
+        self.performSegueWithIdentifier("detailBackSegue", sender: self)
+    }
 
 
 

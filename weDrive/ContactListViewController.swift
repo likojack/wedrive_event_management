@@ -10,7 +10,7 @@ import UIKit
 
 class ContactListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var people = ["one", "two", "three"]
+    var people = ["George", "Ben", "Cindy"]
     var name : String = ""
     var note : String = ""
     var from : String = ""
@@ -49,15 +49,17 @@ class ContactListViewController: UIViewController, UITableViewDataSource, UITabl
         self.selectedPeople.append(people[indexPath.row])
     }
     
-    func cancelTapped(sender: UIBarButtonItem) {
+    @IBAction func cancelTapped(sender: AnyObject) {
         self.performSegueWithIdentifier("contactCancelSegue", sender: self)
     }
-    func doneTapped(sender: UIBarButtonItem) {
+   
+    @IBAction func doneTapped(sender: AnyObject) {
         self.performSegueWithIdentifier("peopleAddedSegue", sender: self)
     }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "peopleAddedSegue" {
-            var eventCreateViewController = segue.destinationViewController as CreateEventViewController
+            var eventCreateViewController = segue.destinationViewController as! CreateEventViewController
             eventCreateViewController.people = self.selectedPeople
             eventCreateViewController.name = self.name
             eventCreateViewController.note = self.note
@@ -65,7 +67,14 @@ class ContactListViewController: UIViewController, UITableViewDataSource, UITabl
             eventCreateViewController.to = self.to
             
         }
-        
+        if segue.identifier == "contactCancelSegue" {
+            var eventCreateViewController = segue.destinationViewController as! CreateEventViewController
+            eventCreateViewController.people = self.selectedPeople
+            eventCreateViewController.name = self.name
+            eventCreateViewController.note = self.note
+            eventCreateViewController.from = self.from
+            eventCreateViewController.to = self.to
+        }
     }
 
 }

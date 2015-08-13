@@ -13,6 +13,8 @@ class ZoomViewController: UIViewController, UIScrollViewDelegate  {
 
     var image: UIImage? = nil
     
+    
+    
     @IBOutlet weak var ZoomScrollView: UIScrollView!
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
@@ -24,10 +26,9 @@ class ZoomViewController: UIViewController, UIScrollViewDelegate  {
         self.imageView.image = self.image!
     }
     
+    
     func viewForZoomingInScrollView(scrollView: UIScrollView) -> UIView? {
         return self.imageView
     }
-
-
 
 }

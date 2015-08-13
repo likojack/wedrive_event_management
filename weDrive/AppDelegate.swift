@@ -1,3 +1,4 @@
+
 //
 //  AppDelegate.swift
 //  weDrive
@@ -8,6 +9,7 @@
 
 import UIKit
 import CoreData
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +19,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Parse.setApplicationId("07Ca5MegzkXLxw9cT6QB3CdzLlIsKclcBawFBeeu", clientKey: "PqhkCX8IAUp4aakS56OYwqU0IhFbPa6ZuB9H1Cuw")
+        var object = PFObject(className: "testDataClass")
+        object.addObject("iOSBlog", forKey: "websiteUrl")
+        object.addObject("Five", forKey: "websiteRating")
+        object.save()
         return true
     }
 
@@ -49,7 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.ShumanLiu.weDrive" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-        return urls[urls.count-1] as NSURL
+        return urls[urls.count-1] as! NSURL
     }()
 
     lazy var managedObjectModel: NSManagedObjectModel = {
